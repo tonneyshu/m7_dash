@@ -120,7 +120,7 @@ with col[1]:
         st.plotly_chart(volume_chart, use_container_width=True)
 
 with col[0]:
-    st.markdown('### Historical Data (Last 5 Days)')
+    st.markdown('### Historical Data (Last 3 Days)')
     st.dataframe(df_last_3_days[['Date', 'Open', 'High', 'Low', 'Close', 'Volume']],
                  column_order=("Date", "Open", "High", "Low", "Close", "Volume"),
                  hide_index=True)
