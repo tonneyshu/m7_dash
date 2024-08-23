@@ -5,7 +5,7 @@ Welcome to the M7 Dashboard, a Streamlit application designed to visualize stock
 ## Features
 
 - **Stock Selection**: Choose from the Magnificent 7 stocks: Apple (AAPL), Microsoft (MSFT), Google (GOOGL), Amazon (AMZN), Nvidia (NVDA), Tesla (TSLA), and Meta (META).
-- **Historical Data**: Displays the last 5 days of stock data.
+- **Historical Data**: Displays the last 3 days of stock data.
 - **Key Metrics**: Shows the latest close date, close price, trading volume, and daily volatility.
 - **Charts**:
   - **Candlestick Chart**: With 10-day and 20-day moving averages.
